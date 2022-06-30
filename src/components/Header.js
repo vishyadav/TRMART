@@ -3,7 +3,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import {Nav} from 'react-bootstrap'
 import Container from 'react-bootstrap/esm/Container'
 import {NavLink} from 'react-bootstrap'
-import Icon from '@mui/material/Icon';
+
 
 export default function Header() {
   return (
@@ -25,7 +25,7 @@ export default function Header() {
               <navLink to='/' className='text-decoration text-dark'>
                   <strong><span className='d-none d-sm-block'>Acccount</span><i class="fa fa-user fs-3 d-block d-sm-none" aria-hidden="true"></i></strong>
               </navLink>
-              <NavLink>ShoppingCartOutlined</NavLink>
+              
           </Nav>
 
       </Container>
